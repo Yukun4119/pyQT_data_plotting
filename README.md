@@ -9,7 +9,7 @@ This program is aimed to plot scatter chart from large data( e.g 100MB+ ).
 * Front end: QT 
 * Back end: python 3.8
 
-<img src="/Users/y.k.shang/Google Drive/Fang/pyQT_data_plotting/README.assets/Screen Shot 2020-11-24 at 01.01.34.png" alt="Screen Shot 2020-11-24 at 01.01.34" style="zoom: 25%;" />
+<img src="./README.assets/Screen Shot 2020-11-24 at 01.01.34.png" alt="Screen Shot 2020-11-24 at 01.01.34" style="zoom: 25%;" />
 
 
 
@@ -43,7 +43,7 @@ conda -V
 
 if the output is :
 
-<img src="/Users/y.k.shang/Google Drive/Fang/pyQT_data_plotting/README.assets/Screen Shot 2020-11-24 at 01.13.02.png" alt="Screen Shot 2020-11-24 at 01.13.02" style="zoom:50%;" />
+<img src="./README.assets/Screen Shot 2020-11-24 at 01.13.02.png" alt="Screen Shot 2020-11-24 at 01.13.02" style="zoom:50%;" />
 
 Congratulations!
 
@@ -102,7 +102,7 @@ red dot for `weekday`
 
 blue dot for `weekend`
 
-![Screen Shot 2020-11-24 at 01.24.36](/Users/y.k.shang/Google Drive/Fang/pyQT_data_plotting/README.assets/Screen Shot 2020-11-24 at 01.24.36.png)
+![Screen Shot 2020-11-24 at 01.24.36](./README.assets/Screen Shot 2020-11-24 at 01.24.36.png)
 
 
 
@@ -112,7 +112,7 @@ green dot for `night time`
 
 black dot for `night time`
 
-<img src="/Users/y.k.shang/Google Drive/Fang/pyQT_data_plotting/README.assets/Screen Shot 2020-11-24 at 01.25.42.png" alt="Screen Shot 2020-11-24 at 01.25.42" style="zoom:50%;" />
+<img src="./README.assets/Screen Shot 2020-11-24 at 01.25.42.png" alt="Screen Shot 2020-11-24 at 01.25.42" style="zoom:50%;" />
 
 
 
@@ -126,4 +126,4 @@ Orange  dot for `fall`
 
 Blue dot for `winter`
 
-![Screen Shot 2020-11-24 at 01.26.55](/Users/y.k.shang/Google Drive/Fang/pyQT_data_plotting/README.assets/Screen Shot 2020-11-24 at 01.26.55.png)
+![Screen Shot 2020-11-24 at 01.26.55](./README.assets/Screen Shot 2020-11-24 at 01.26.55.png)
