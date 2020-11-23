@@ -2,6 +2,8 @@
 
 This program is aimed to plot scatter chart from large data( e.g 100MB+ ).
 
+#### This program is under the instruction of Prof.  Xuekun FANG
+
 
 
 ## How does it work
@@ -132,7 +134,7 @@ Blue dot for `winter`
 
 
 
-#### This program is under the instruction of Prof.  Xuekun FANG
+#### 
 
 
 
