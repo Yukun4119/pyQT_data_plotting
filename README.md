@@ -104,7 +104,7 @@ red dot for `weekday`
 
 blue dot for `weekend`
 
-![Screen Shot 2020-11-24 at 01.24.36](./README.assets/Screen Shot 2020-11-24 at 01.24.36.png)
+![Screen Shot 2020-11-24 at 01.24.36](./README.assets/night.png)
 
 
 
@@ -128,7 +128,7 @@ Orange  dot for `fall`
 
 Blue dot for `winter`
 
-![Screen Shot 2020-11-24 at 01.26.55](./README.assets/Screen Shot 2020-11-24 at 01.26.55.png)
+![Screen Shot 2020-11-24 at 01.26.55](./README.assets/season.png)
 
 
 
