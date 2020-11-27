@@ -86,6 +86,20 @@ The structure of this program is as follows:
 
 #### Step4 Run and enjoy :P
 
+Before running python, you need install some package:
+
+* intall chinese_calendar:
+
+```
+pip intall chinese_calendar
+```
+
+* Install XMING:[wsl之linux QT 安装](https://blog.csdn.net/u013841997/article/details/104747482)
+
+  
+
+---------------------------------------------------------------------------------------------------------
+
 In `pyQT_data_plotting` file , type
 
 ```shell
