@@ -1,6 +1,6 @@
 # pyQT_data_plotting
 
-This program is aimed to plot scatter chart from large data( e.g 100MB+ ).
+This program aims to plot scatter chart from large data( e.g 100MB+ ).
 
 #### This program is under the instruction of Prof.  Xuekun FANG
 
