@@ -91,7 +91,7 @@ Before running python, you need install some package:
 * intall chinese_calendar:
 
 ```
-pip intall chinese_calendar
+pip install chinesecalendar
 ```
 
 * Install XMING:[wsl之linux QT 安装](https://blog.csdn.net/u013841997/article/details/104747482)
