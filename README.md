@@ -25,7 +25,7 @@ This program aims to plot scatter chart from large data( e.g 100MB+ ).
 
 You'd better install WLS
 
-Here is the tutoral on how to install WLS in windows:[WSL 使用指南——02 安装配置](https://zhuanlan.zhihu.com/p/34885182)
+Here is the tutorial on how to install WLS in windows:[WSL 使用指南——02 安装配置](https://zhuanlan.zhihu.com/p/34885182)
 
 After you have finished, you can use Windows just like Linux.
 
@@ -143,12 +143,6 @@ Orange  dot for `fall`
 Blue dot for `winter`
 
 ![Screen Shot 2020-11-24 at 01.26.55](./README.assets/season.png)
-
-
-
-
-
-#### 
 
 
 
