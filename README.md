@@ -86,17 +86,22 @@ The structure of this program is as follows:
 
 #### Step4 Run and enjoy :P
 
-Before running python, you need install some package:
+For **windows**, you need install some package:
 
-* intall chinese_calendar:
+* Intall chinese_calendar:
 
 ```
 pip install chinesecalendar
 ```
 
-* Install XMING:[wsl之linux QT 安装](https://blog.csdn.net/u013841997/article/details/104747482)
+* Install XMING:[windows上安装XMING](https://sourceforge.net/projects/xming/)
+* Type the following cmd:
 
-  
+```
+export DISPLAY=:0
+```
+
+
 
 ---------------------------------------------------------------------------------------------------------
 
