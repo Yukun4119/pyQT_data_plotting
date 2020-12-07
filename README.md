@@ -17,11 +17,9 @@ This program aims to plot scatter chart from large data( e.g 100MB+ ).
 
 ## How to start
 
+### :1st_place_medal:For WSL
+
 #### Step1 Set up your environment
-
-* For **MacOS** or **Linux**: Do nothing : )
-
-* For Windows : (
 
 You'd better install WLS
 
@@ -43,7 +41,7 @@ use this command to check if anaconda is installed correctly.
 conda -V
 ```
 
-if the output is :
+If the output is :
 
 <img src="./README.assets/Screen Shot 2020-11-24 at 01.13.02.png" alt="Screen Shot 2020-11-24 at 01.13.02" style="zoom:50%;" />
 
@@ -51,9 +49,44 @@ Congratulations!
 
 For more infomation about anaconda, you can search google or visit their [office site](https://www.anaconda.com)
 
-#### Step3 Check your data file 
 
-In this step, you should place your **data file** in right place.
+
+* Intall chinese_calendar:
+
+```
+pip install chinesecalendar
+```
+
+
+
+For **windows**, you need install some package:
+
+* Install XMING:[windows上安装XMING](https://sourceforge.net/projects/xming/)
+* Type the following cmd:
+
+```
+export DISPLAY=:0
+```
+
+
+
+#### Step3 Check your data file and code files
+
+* download code with git clone:
+
+```
+git clone -b branch_name git_link
+```
+
+where **branch_name** denotes branch name; git_link denotes the link on Github.
+
+* **or**  download code directly:
+
+<img src="README.assets/Screen Shot 2020-12-08 at 00.21.39.png" alt="Screen Shot 2020-12-08 at 00.21.39" style="zoom:50%;" />
+
+
+
+Then, you should place your **data file** in right place.
 
 Actually, you can place data file in any place, if you remember to change the file path code in `get_img.py`.
 
@@ -86,25 +119,6 @@ The structure of this program is as follows:
 
 #### Step4 Run and enjoy :P
 
-For **windows**, you need install some package:
-
-* Intall chinese_calendar:
-
-```
-pip install chinesecalendar
-```
-
-* Install XMING:[windows上安装XMING](https://sourceforge.net/projects/xming/)
-* Type the following cmd:
-
-```
-export DISPLAY=:0
-```
-
-
-
----------------------------------------------------------------------------------------------------------
-
 In `pyQT_data_plotting` file , type
 
 ```shell
@@ -112,6 +126,30 @@ python main.py
 ```
 
 to start QT.
+
+
+
+### :1st_place_medal:For MacOS / Linux
+
+Follow **Step2 ~ Step4** above
+
+
+
+### :1st_place_medal:For Windows
+
+#### Step1 Download python 
+
+[Windows下Python的安装与使用](https://blog.csdn.net/Wang_Jiankun/article/details/80565719)
+
+#### Step2 open cmd 
+
+Type **Window** key and type in `cmd`, you will find it.
+
+
+
+#### Follow Step3 ~ Step4 above. 
+
+(you may encounter some problems, using `pip install ` can solve them)
 
 
 
@@ -123,7 +161,7 @@ red dot for `weekday`
 
 blue dot for `weekend`
 
-![Screen Shot 2020-11-24 at 01.24.36](./README.assets/night.png)
+<img src="./README.assets/night.png" alt="Screen Shot 2020-11-24 at 01.24.36" style="zoom:33%;" />
 
 
 
@@ -133,7 +171,7 @@ green dot for `night time`
 
 black dot for `night time`
 
-<img src="./README.assets/Screen Shot 2020-11-24 at 01.25.42.png" alt="Screen Shot 2020-11-24 at 01.25.42" style="zoom:50%;" />
+<img src="./README.assets/Screen Shot 2020-11-24 at 01.25.42.png" alt="Screen Shot 2020-11-24 at 01.25.42" style="zoom: 33%;" />
 
 
 
@@ -147,7 +185,7 @@ Orange  dot for `fall`
 
 Blue dot for `winter`
 
-![Screen Shot 2020-11-24 at 01.26.55](./README.assets/season.png)
+<img src="./README.assets/season.png" alt="Screen Shot 2020-11-24 at 01.26.55" style="zoom: 33%;" />
 
 
 
