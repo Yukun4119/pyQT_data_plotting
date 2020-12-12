@@ -7,8 +7,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 import src.get_img as gi
 
-# _translate = QtCore.QCoreApplication.translate
-
 class picture(QWidget):
     def __init__(self):
         super(picture, self).__init__()

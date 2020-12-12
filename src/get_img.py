@@ -8,7 +8,6 @@ import datetime
 from chinese_calendar import is_workday, is_holiday
 
 
-
 def is_run_year(year):
 	if (year % 4) == 0:
 		if (year % 100) == 0:
