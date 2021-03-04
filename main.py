@@ -7,8 +7,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 import src.get_img as gi
 
-# _translate = QtCore.QCoreApplication.translate
-
 class picture(QWidget):
     def __init__(self):
         super(picture, self).__init__()
@@ -69,7 +67,7 @@ class picture(QWidget):
         mode_index = self.mode.currentIndex()
         
         gi.get_img(site_index + 1,material_index+ 1, year_index, month_start_index,month_end_index, mode_index)
-        jpg = QtGui.QPixmap("./resources/img/%s-%s-%d-%d-%d.jpg"%(self.site_list[site_index],self.material_list[material_index] , year_index + 2015, month_start_index, month_end_index)).scaled(self.label.width(), self.label.height())
+        jpg = QtGui.QPixmap(".\\resources\\img\\%s-%s-%d-%d-%d.jpg"%(self.site_list[site_index],self.material_list[material_index] , year_index + 2015, month_start_index, month_end_index)).scaled(self.label.width(), self.label.height())
         self.label.setPixmap(jpg)
 
 if __name__ == "__main__":
